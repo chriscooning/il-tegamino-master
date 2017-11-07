@@ -1,0 +1,102 @@
+.display-block {
+  display: block;
+}
+
+
+header, footer {
+  background: image-url('bg-header-footer.jpg') center center no-repeat #d8b783;
+  background-size: cover;
+}
+
+header {
+  .navbar-collapse {
+    overflow: hidden;
+  }
+  @media (min-width: $screen-sm-min) {
+    .navbar {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.4;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .navbar-nav {
+      float: none;
+      display: inline-block;
+      vertical-align: top;
+      > li {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        margin-right: 20px;
+        > a {
+          line-height: 220px;
+        }
+      }
+    }
+    .navbar-brand {
+      height: auto;
+      margin-left: 0 !important;
+    }
+  }
+}
+
+footer {
+  color: #482d1e;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  a {
+    color: #482d1e;
+  }
+  .social-icons {
+    padding-bottom: 10px;
+    text-align: center;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 7px;
+    }
+    .fa {
+      font-size: 50px;
+    }
+  }
+}
+
+.carousel-control {
+  width: 33px;
+  height: 54px;
+  position: absolute;
+  top: 44%;
+  background: image-url('slider-arrows.png') 0 0 no-repeat;
+  margin-top: -27px;
+  cursor: pointer;
+  &.left {
+    left: 10px;
+  }
+  &.right {
+    right: 10px;
+    background-position: -33px 0;
+  }
+}
+
+.block-about .carousel-control {
+  &.left {
+    left: -45px;
+  }
+  &.right {
+    right: -45px;
+    background-position: -33px 0;
+  }
+}
+
+.wine-br {
+  padding-top: 12px;
+}

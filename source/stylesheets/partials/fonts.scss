@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'PasticheBrush';
+  src: font-url('/fonts/pastiche_brush.eot');
+  src: font-url('/fonts/pastiche_brush.eot?#iefix') format('embedded-opentype'),
+       font-url('/fonts/pastiche_brush.woff2') format('woff2'),
+       font-url('/fonts/pastiche_brush.woff') format('woff'),
+       font-url('/fonts/pastiche_brush.ttf') format('truetype'),
+       font-url('/fonts/pastiche_brush.svg#PasticheBrush') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: font-url('/fonts/didot.eot');
+  src: font-url('/fonts/didot.eot?#iefix') format('embedded-opentype'),
+       font-url('/fonts/didot.woff') format('woff'),
+       font-url('/fonts/didot.ttf') format('truetype'),
+       font-url('/fonts/didot.svg#Didot') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

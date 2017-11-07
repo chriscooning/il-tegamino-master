@@ -1,0 +1,29 @@
+header.header
+  nav.navbar.navbar-default
+    .container
+      .navbar-header
+        button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand.visible-xs href="/" Il Tegamino
+
+      #main-menu.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li.active.extraspacing
+            a href="#menu" Menu
+          li.extraspacing
+            a href="#about" About
+          li.hidden-xs
+            a.navbar-brand href="#"
+              = image_tag 'logo.png', height: 220, alt: 'Il Tegamino'
+          li
+            a href="#location" Location
+          li
+            a href="#contact" Contact
+
+  center.mobile-header
+    .container
+      a href="#"
+        = image_tag 'logo.png', height: 220, alt: 'Il Tegamino'

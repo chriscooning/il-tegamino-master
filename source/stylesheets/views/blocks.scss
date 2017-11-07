@@ -1,0 +1,249 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    -webkit-overflow-scrolling: touch;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.block-menu {
+  position: relative;
+  .carousel-control {
+    background-image: image-url('slider-arrows-light.png');
+    &.left {
+      left: 10px;
+    }
+    &.right {
+      right: 10px;
+    }
+  }
+  .carousel {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 0;
+    background: #45322d;
+    .carousel-item {
+      width: 100%;
+      padding-bottom: 65px;
+    }
+  }
+  .block-title {
+    font: 400 62px/1 $fontFour;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: -30px;
+  }
+  .block-subtitle {
+    color: #ef873b;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 65px;
+    &.small-margin {
+      margin-bottom: 20px;
+    }
+  }
+  .block-price {
+    float: right;
+  }
+  .block-info {
+    margin-right: 44px;
+  }
+  .block-name {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.block-news {
+  font: 400 20px/1.5 $fontTwo;
+  padding-bottom: 40px;
+  padding-top: 25px;
+  h3 {
+    color: #452b1b;
+    margin-bottom: 35px;
+  }
+  .meta {
+    font: 400 14px/1 $fontTwo;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .article-meta {
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-top: 120px;
+    a {
+      color: #8e8e8e;
+    }
+  }
+  .share {
+    margin-top: 22px;
+    margin-bottom: 42px;
+    font-size: 12px;
+    text-transform: uppercase;
+    a {
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+    .fa {
+      margin-right: 6px;
+    }
+  }
+}
+
+.block-about {
+  font: 400 20px/1.5 $fontTwo;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  h3 {
+    margin-bottom: 32px;
+  }
+  .carousel-wrap {
+    position: relative;
+    margin-top: 69px;
+  }
+  .carousel {
+    text-align: center;
+    .img-responsive {
+      display: inline;
+      vertical-align: top;
+    }
+  }
+}
+
+.block-contact {
+  padding-top: 70px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  .block-title {
+    font-weight: 700;
+    color: #ff8b69;
+    margin-bottom: 10px;
+  }
+}
+
+.mobile-header{
+  display: none;
+}
+
+#menu .carousel-control {
+  &.left {
+    top: 75px;
+    left: 20px;
+  }
+  &.right {
+    top: 75px;
+    right: 20px;
+  }
+}
+
+.yelpbox {padding-bottom: 20px; text-align: center;}
+.yelpboxmobile {padding-bottom: 10px; display: none; text-align: center;}
+
+@media (max-width: 1200px) {
+  .yelpbox {display: none;}
+  .yelpboxmobile {display: block;}
+  .footer-text{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+  .mobile-header{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .wine-br{
+    display: none;
+  }
+
+  #menu .carousel-control {
+    &.left {
+      top: 50px;
+      -ms-transform: scale(.75); /* IE 9 */
+      -webkit-transform: scale(.75); /* Chrome, Safari, Opera */
+      transform: scale(.75);
+    }
+    &.right {
+      top: 50px;
+      -ms-transform: scale(.75); /* IE 9 */
+      -webkit-transform: scale(.75); /* Chrome, Safari, Opera */
+      transform: scale(.75);
+    }
+  }
+
+  .block-about .carousel-control {
+    &.left {
+      left: -10px;
+    }
+    &.right {
+      right: -10px;
+      background-position: -33px 0;
+    }
+  }
+
+  .section-title-bg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .block-menu .block-title{
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+  .block-menu .block-subtitle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .menu-title{
+    padding-bottom: 8px;
+  }
+  .text-center {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .block-news{
+    padding-bottom: 0px;
+    h3{
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+  }
+  .block-about{ 
+    padding-bottom: 10px;
+    h3{
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+  }
+  .block-menu .block-info{
+    padding-bottom: 10px;
+  }
+  .block-about .carousel-wrap {
+    margin-top: 0px;
+  }
+  .block-menu .carousel .carousel-item{
+    padding-bottom: 10px;
+  }
+  .block-contact{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
+.extraspacing{
+  padding-right: 13px;
+  padding-left: 13px;
+}

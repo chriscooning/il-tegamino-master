@@ -1,0 +1,37 @@
+h3 {
+  font-family: $fontThree;
+  line-height: 1.5;
+}
+
+.section-title {
+  h1 {
+    font: 400 28px/1 $fontThree;
+    text-align: center;
+    letter-spacing: -.5px;
+  }
+}
+
+.section-title-bg {
+  font: 400 72px/1 $fontFour;
+  color: #fff;
+  text-align: center;
+  padding: 76px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  h2 {
+    font-size: 72px;
+  }
+}
+
+.section-title-bg-news {
+  background-image: image-url('bg-news.jpg');
+}
+
+.section-title-bg-contact {
+  background-image: image-url('bg-contact.jpg');
+}
+
+.section-title-bg-about {
+  background-image: image-url('bg-about.jpg');
+}
